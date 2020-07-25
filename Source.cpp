@@ -13,6 +13,7 @@ public:
 		*ptr = *x;
 	}
 	
+	//Destructor
 	~Integer()
 	{
 		delete ptr;
